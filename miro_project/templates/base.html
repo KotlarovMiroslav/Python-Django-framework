@@ -1,6 +1,16 @@
+<style>
+    header{
+        text-align: center;
+    }
+    header a{
+        padding-left: 25px;
+    }
+</style>
+
 <header>
     <a href="{% url 'home' %}">Home</a>
     <a href="{% url 'about' %}">About</a>
+    <a href="{% url 'pages' %}">Pages</a>
 </header>
 
 {% block content %} {% endblock content %}
